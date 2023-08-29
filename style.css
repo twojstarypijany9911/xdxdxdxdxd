@@ -1,64 +1,123 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 body{
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    overflow: hidden;
+    background-image: url(https://images.wallpapersden.com/image/download/grand-theft-auto-5-city-view_bGdrZWeUmZqaraWkpJRobWllrWdma2U.jpg);
 }
 
-.btext{
-    color: #f9f3f4;
-    position: absolute;
+
+
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
     text-align: center;
-    top: 40%;
-    width: 100%;
-    line-height: 0.4em;
-}
-
-h1{
-    font-size: 50px;
-}
-
-p {
-    animation: rgb 5s linear infinite alternate;
-}
-
-.btn{
-    color: #a723c2;
+    padding: 14px 16px;
     text-decoration: none;
-    border: #a723c2 1px solid;
-    padding: 10px 15px;
-    border-radius: 8px;
-    line-height: 4em;
-}
+  }
+    li a:hover {
+        background-color: #ce00007c;
+    }
+  .active {
+    background-color: #9b0606;
+  }
+  .center {
+    margin-top: 5%;
+    color: white;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    background-color: rgba(255, 255, 255, 0.05);
 
-.btn:hover{
-    color: #b19295;
-    border: #a723c2 1px solid;
-}
+  }
+  .cl {
+    margin-top: 15%;
+    color: white;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    padding: 10px;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    background-color: rgba(255, 255, 255, 0.05);
 
-.textcopy{
-  font-size: 10px;
-  font-weight: bold;
-  padding: 16px 32px;
-  position: absolute;
-  left: 9.25%;
-  top:95%;
-  color: #ffffff;
-  transform: translate(-50%,-50%);
-  font-family: 'Raleway', sans-serif;
-}
+  }
+  .grid2x2 {
+      margin: 5%;
+    min-height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .grid2x2 > div {
+    color: white;
+    text-decoration: none;
 
-@keyframes rgb {
-0%{color: rgb(250,50,50);}
-12.5%{color: rgb(250,250,50);}
-25%{color: rgb(50,250,50);}
-37.5%{color: rgb(50,250,250);}
-50%{color: rgb(50,50,250);}
-62.5%{color: rgb(50, 250, 250);}
-75%{color: rgb(50,250,50);;}
-87.5%{color: rgb(250,250,50);}
-100%{color: rgb(250,50,50);}
+    text-align: center;
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 10%;
+    height: 10%;
+    margin: 20px;
+  }
+  .grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .grid2x2 > div {
+    transition: transform 250ms;
+  }
+  
+  .grid2x2 > div:hover {
+    transform: translateY(-10px);
+  }
+  .logo{
+    float: right;
+    max-height: 50px;
+    margin: 0;
+    padding: 0;
+    
 }
-
-#particles-js{
-    background-image: url('image1.jpg');
-}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 10px;
+  }
