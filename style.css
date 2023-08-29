@@ -1,0 +1,123 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-image: url(https://images.wallpapersden.com/image/download/grand-theft-auto-5-city-view_bGdrZWeUmZqaraWkpJRobWllrWdma2U.jpg);
+}
+
+
+
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+    li a:hover {
+        background-color: #ce00007c;
+    }
+  .active {
+    background-color: #9b0606;
+  }
+  .center {
+    margin-top: 5%;
+    color: white;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    background-color: rgba(255, 255, 255, 0.05);
+
+  }
+  .cl {
+    margin-top: 15%;
+    color: white;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    padding: 10px;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    background-color: rgba(255, 255, 255, 0.05);
+
+  }
+  .grid2x2 {
+      margin: 5%;
+    min-height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .grid2x2 > div {
+    color: white;
+    text-decoration: none;
+
+    text-align: center;
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 10%;
+    height: 10%;
+    margin: 20px;
+  }
+  .grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .grid2x2 > div {
+    transition: transform 250ms;
+  }
+  
+  .grid2x2 > div:hover {
+    transform: translateY(-10px);
+  }
+  .logo{
+    float: right;
+    max-height: 50px;
+    margin: 0;
+    padding: 0;
+    
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 10px;
+  }
